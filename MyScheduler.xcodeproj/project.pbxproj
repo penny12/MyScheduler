@@ -13,6 +13,9 @@
 		191A6B43212113CB00EACFCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191A6B41212113CB00EACFCB /* Main.storyboard */; };
 		191A6B48212113CD00EACFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191A6B47212113CD00EACFCB /* Assets.xcassets */; };
 		191A6B4B212113CD00EACFCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191A6B49212113CD00EACFCB /* LaunchScreen.storyboard */; };
+		19DC5D7E2121318A00970669 /* ScheduleDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DC5D7D2121318A00970669 /* ScheduleDate.swift */; };
+		19DC5D802121319800970669 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DC5D7F2121319800970669 /* Item.swift */; };
+		19DC5D832121332D00970669 /* DoneListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DC5D822121332D00970669 /* DoneListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		191A6B47212113CD00EACFCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		191A6B4A212113CD00EACFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		191A6B4C212113CD00EACFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19DC5D7D2121318A00970669 /* ScheduleDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDate.swift; sourceTree = "<group>"; };
+		19DC5D7F2121319800970669 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		19DC5D822121332D00970669 /* DoneListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneListViewController.swift; sourceTree = "<group>"; };
 		BAD98164FF5099E21B816319 /* Pods-MyScheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyScheduler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyScheduler/Pods-MyScheduler.debug.xcconfig"; sourceTree = "<group>"; };
 		CA748DE3AFE316700C8C29CB /* Pods-MyScheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyScheduler.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyScheduler/Pods-MyScheduler.release.xcconfig"; sourceTree = "<group>"; };
 		CD0D29231BEE8F3DBAC59093 /* Pods_MyScheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyScheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +80,8 @@
 		19DC5D6B2121161100970669 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				19DC5D7D2121318A00970669 /* ScheduleDate.swift */,
+				19DC5D7F2121319800970669 /* Item.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -91,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				191A6B3F212113CB00EACFCB /* ViewController.swift */,
+				19DC5D822121332D00970669 /* DoneListViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -246,7 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19DC5D832121332D00970669 /* DoneListViewController.swift in Sources */,
+				19DC5D802121319800970669 /* Item.swift in Sources */,
 				191A6B40212113CB00EACFCB /* ViewController.swift in Sources */,
+				19DC5D7E2121318A00970669 /* ScheduleDate.swift in Sources */,
 				191A6B3E212113CB00EACFCB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
