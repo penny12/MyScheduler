@@ -1,0 +1,31 @@
+PODS:
+  - CalendarView (1.1.2):
+    - SwiftMoment (~> 0.1)
+  - Realm (3.7.6):
+    - Realm/Headers (= 3.7.6)
+  - Realm/Headers (3.7.6)
+  - RealmSwift (3.7.6):
+    - Realm (= 3.7.6)
+  - SwiftMoment (0.7)
+
+DEPENDENCIES:
+  - CalendarView
+  - RealmSwift
+  - SwiftMoment
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CalendarView
+    - Realm
+    - RealmSwift
+    - SwiftMoment
+
+SPEC CHECKSUMS:
+  CalendarView: 35d51b70586213604edec22a585d105273f6e191
+  Realm: 9eaecad54712d6246d08ba34c10f354e4715d7d3
+  RealmSwift: 1fe08b4ebaeeaacf17f9ba0343f7b25c9fc31fa6
+  SwiftMoment: dc6dd27012e267819104cbb03f74ff9192dd0b42
+
+PODFILE CHECKSUM: 8315d415eb09fcd1c0e376c7a6015ea5c25bc998
+
+COCOAPODS: 1.5.3

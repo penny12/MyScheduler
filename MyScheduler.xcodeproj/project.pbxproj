@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122D2C1C7C98EC5FA7B733E2 /* Pods_MyScheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0D29231BEE8F3DBAC59093 /* Pods_MyScheduler.framework */; };
 		191A6B3E212113CB00EACFCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A6B3D212113CB00EACFCB /* AppDelegate.swift */; };
 		191A6B40212113CB00EACFCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A6B3F212113CB00EACFCB /* ViewController.swift */; };
 		191A6B43212113CB00EACFCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191A6B41212113CB00EACFCB /* Main.storyboard */; };
-		191A6B46212113CB00EACFCB /* MyScheduler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 191A6B44212113CB00EACFCB /* MyScheduler.xcdatamodeld */; };
 		191A6B48212113CD00EACFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191A6B47212113CD00EACFCB /* Assets.xcassets */; };
 		191A6B4B212113CD00EACFCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191A6B49212113CD00EACFCB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,10 +20,12 @@
 		191A6B3D212113CB00EACFCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		191A6B3F212113CB00EACFCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		191A6B42212113CB00EACFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		191A6B45212113CB00EACFCB /* MyScheduler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyScheduler.xcdatamodel; sourceTree = "<group>"; };
 		191A6B47212113CD00EACFCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		191A6B4A212113CD00EACFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		191A6B4C212113CD00EACFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAD98164FF5099E21B816319 /* Pods-MyScheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyScheduler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyScheduler/Pods-MyScheduler.debug.xcconfig"; sourceTree = "<group>"; };
+		CA748DE3AFE316700C8C29CB /* Pods-MyScheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyScheduler.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyScheduler/Pods-MyScheduler.release.xcconfig"; sourceTree = "<group>"; };
+		CD0D29231BEE8F3DBAC59093 /* Pods_MyScheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyScheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122D2C1C7C98EC5FA7B733E2 /* Pods_MyScheduler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,8 @@
 			children = (
 				191A6B3C212113CB00EACFCB /* MyScheduler */,
 				191A6B3B212113CB00EACFCB /* Products */,
+				773DBF1E7A3DF9BCF16CD6E1 /* Pods */,
+				5F94E21A553C9B759CE3D319 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +61,71 @@
 		191A6B3C212113CB00EACFCB /* MyScheduler */ = {
 			isa = PBXGroup;
 			children = (
+				19DC5D702121167600970669 /* Resources */,
+				19DC5D6F2121166B00970669 /* Supporting Files */,
+				19DC5D6D2121161B00970669 /* Controllers */,
+				19DC5D6C2121161600970669 /* Views */,
+				19DC5D6B2121161100970669 /* Models */,
 				191A6B3D212113CB00EACFCB /* AppDelegate.swift */,
-				191A6B3F212113CB00EACFCB /* ViewController.swift */,
-				191A6B41212113CB00EACFCB /* Main.storyboard */,
-				191A6B47212113CD00EACFCB /* Assets.xcassets */,
-				191A6B49212113CD00EACFCB /* LaunchScreen.storyboard */,
-				191A6B4C212113CD00EACFCB /* Info.plist */,
-				191A6B44212113CB00EACFCB /* MyScheduler.xcdatamodeld */,
 			);
 			path = MyScheduler;
+			sourceTree = "<group>";
+		};
+		19DC5D6B2121161100970669 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		19DC5D6C2121161600970669 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				191A6B41212113CB00EACFCB /* Main.storyboard */,
+				191A6B49212113CD00EACFCB /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		19DC5D6D2121161B00970669 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				191A6B3F212113CB00EACFCB /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		19DC5D6F2121166B00970669 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				191A6B4C212113CD00EACFCB /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19DC5D702121167600970669 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				191A6B47212113CD00EACFCB /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5F94E21A553C9B759CE3D319 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D29231BEE8F3DBAC59093 /* Pods_MyScheduler.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		773DBF1E7A3DF9BCF16CD6E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAD98164FF5099E21B816319 /* Pods-MyScheduler.debug.xcconfig */,
+				CA748DE3AFE316700C8C29CB /* Pods-MyScheduler.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 191A6B4F212113CD00EACFCB /* Build configuration list for PBXNativeTarget "MyScheduler" */;
 			buildPhases = (
+				DDAE120995BD699A7C639837 /* [CP] Check Pods Manifest.lock */,
 				191A6B36212113CB00EACFCB /* Sources */,
 				191A6B37212113CB00EACFCB /* Frameworks */,
 				191A6B38212113CB00EACFCB /* Resources */,
+				BC5F3679B6F30B1229DE8037 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +196,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BC5F3679B6F30B1229DE8037 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyScheduler/Pods-MyScheduler-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CalendarView/CalendarView.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMoment/SwiftMoment.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalendarView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMoment.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyScheduler/Pods-MyScheduler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDAE120995BD699A7C639837 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyScheduler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		191A6B36212113CB00EACFCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,7 +248,6 @@
 			files = (
 				191A6B40212113CB00EACFCB /* ViewController.swift in Sources */,
 				191A6B3E212113CB00EACFCB /* AppDelegate.swift in Sources */,
-				191A6B46212113CB00EACFCB /* MyScheduler.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -271,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -282,11 +389,13 @@
 		};
 		191A6B50212113CD00EACFCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD98164FF5099E21B816319 /* Pods-MyScheduler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4W8PZAU69;
-				INFOPLIST_FILE = MyScheduler/Info.plist;
+				INFOPLIST_FILE = "MyScheduler/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +409,13 @@
 		};
 		191A6B51212113CD00EACFCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA748DE3AFE316700C8C29CB /* Pods-MyScheduler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4W8PZAU69;
-				INFOPLIST_FILE = MyScheduler/Info.plist;
+				INFOPLIST_FILE = "MyScheduler/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,19 +449,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		191A6B44212113CB00EACFCB /* MyScheduler.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				191A6B45212113CB00EACFCB /* MyScheduler.xcdatamodel */,
-			);
-			currentVersion = 191A6B45212113CB00EACFCB /* MyScheduler.xcdatamodel */;
-			path = MyScheduler.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 191A6B32212113CB00EACFCB /* Project object */;
 }
